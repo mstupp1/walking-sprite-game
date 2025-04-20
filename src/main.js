@@ -49,10 +49,10 @@ function createScreens() {
   startScreen.className = 'screen';
   startScreen.innerHTML = `
     <h1 class="screen-title">Love the Kitty Adventure</h1>
-    <img src="/game/images/Love the Kitty Running.png" alt="Love the Kitty" class="screen-icon">
+    <img src="./game/images/Love the Kitty Running.png" alt="Love the Kitty" class="screen-icon">
     <div>
-      <img src="/game/images/arrow-keys.svg" alt="Arrow Keys" class="game-icon">
-      <img src="/game/images/space-key.svg" alt="Space Bar" class="game-icon">
+      <img src="./game/images/arrow-keys.svg" alt="Arrow Keys" class="game-icon">
+      <img src="./game/images/space-key.svg" alt="Space Bar" class="game-icon">
     </div>
   `;
 
@@ -63,7 +63,7 @@ function createScreens() {
   gameOverScreen.innerHTML = `
     <h1 class="screen-title">Game Over</h1>
     <div id="final-score">Score: 0</div>
-    <img src="/game/images/space-key.svg" alt="Space Bar" class="game-icon">
+    <img src="./game/images/space-key.svg" alt="Space Bar" class="game-icon">
   `;
 
   // Add screens to the game container
@@ -76,11 +76,11 @@ function createScreens() {
 function loadAssets() {
   // Load player sprite
   gameState.playerSprite = new Image();
-  gameState.playerSprite.src = '/game/images/Love the Kitty Running.png';
+  gameState.playerSprite.src = './game/images/Love the Kitty Running.png';
 
   // Load powerup sprite
   gameState.powerupSprite = new Image();
-  gameState.powerupSprite.src = '/game/images/powerup.svg';
+  gameState.powerupSprite.src = './game/images/powerup.svg';
 }
 
 // Generate powerups
