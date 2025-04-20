@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Up Arrow -->
+  <rect x="40" y="10" width="40" height="40" rx="5" fill="#444" />
+  <polygon points="60,20 45,40 75,40" fill="#fff" />
+  
+  <!-- Left Arrow -->
+  <rect x="0" y="50" width="40" height="40" rx="5" fill="#444" />
+  <polygon points="10,70 30,55 30,85" fill="#fff" />
+  
+  <!-- Down Arrow -->
+  <rect x="40" y="50" width="40" height="40" rx="5" fill="#444" />
+  <polygon points="60,80 45,60 75,60" fill="#fff" />
+  
+  <!-- Right Arrow -->
+  <rect x="80" y="50" width="40" height="40" rx="5" fill="#444" />
+  <polygon points="110,70 90,55 90,85" fill="#fff" />
+</svg>
